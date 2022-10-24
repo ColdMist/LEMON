@@ -3,7 +3,11 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Python 3.6](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
-## Steps for running the repository
+
+### Data
+The data used in this paper can be downloaded from [Google Drive](https://drive.google.com/file/d/11XRuICEa2gyq_Z535tZT174MS8NhnxVP/view).
+
+### Steps for running the repository
 
 Clone the github repository
 ```
