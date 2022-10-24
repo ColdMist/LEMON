@@ -7,7 +7,7 @@
 
 Clone the github repository
 ```
-git clone https://github.com/ColdMist/LEMON-LanguagE-ModeL-for-Negative-Sampling-of-Knowledge-Graph-Embeddings.git
+git clone https://github.com/ColdMist/LEMON.git
 ```
 Obtain the datafiles 
 ```
