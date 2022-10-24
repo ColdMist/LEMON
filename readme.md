@@ -18,10 +18,6 @@ Clone the github repository
 ```
 git clone https://github.com/ColdMist/LEMON.git
 ```
-Obtain the datafiles 
-```
-coming soon
-```
 Using appropriate data directory run lm2vec.py 
 ```
 cd utils
