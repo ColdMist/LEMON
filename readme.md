@@ -16,7 +16,7 @@ The data used in this paper can be downloaded from [Google Drive](https://drive.
 
 Clone the github repository
 ```
-git clone https://github.com/ColdMist/LEMON.git
+git clone the <repository>
 ```
 Using appropriate data directory run lm2vec.py 
 ```
@@ -28,5 +28,3 @@ Example command for running scrips
 python -u ../codes/run.py --do_train --cuda --do_test --data_path ../data/wn18rr/ --model RotatE --hidden_dim 500 --negative_sample_size 50 --batch_size 512 --gamma 6.0 --adversarial_temperature 0.5 -lr 5e-05 --max_steps 80000 -khop 3 --log_steps 5000 -nclusters 15 --dataset wn18rr -de -save models/RotatE/wn18rr/500/5e-05/512/6.0/50/0.5/80000/15/3/adv -c_low_scores --low_score_collection_threshold 200 -adv
 ```
 
-### License
-[MIT License](https://github.com/ColdMist/LEMON/blob/master/LICENSE.md)

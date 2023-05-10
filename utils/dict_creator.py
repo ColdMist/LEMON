@@ -213,7 +213,7 @@ def mapped_id_to_original_triples(triples, entity_to_id, rel_to_id):
 
 
 
-data_dir = '/home/mirza/PycharmProjects/pythonProject1/Negative-Sampling_LM/SANS-master-KMeans/data/fb15k-237/mapped'
+data_dir = './data/wn18/mapped'
 save_data_dir = 'mapped'
 save_data_dir = os.path.join(data_dir,save_data_dir)
 train_data_dir = os.path.join(data_dir, 'train.txt')
@@ -246,5 +246,5 @@ all_entities = list(result_in_array[0].unique()) + list(result_in_array[2].uniqu
 all_entities = np.unique(all_entities)
 all_relations =list(result_in_array[1].unique())
 
-pd.DataFrame(all_entities).to_csv('/home/mirza/PycharmProjects/pythonProject1/Negative-Sampling_LM/SANS-master-KMeans/data/fb15k-237/mapped/entities.dict', header=None, index=True, sep='\t')
-pd.DataFrame(all_relations).to_csv('/home/mirza/PycharmProjects/pythonProject1/Negative-Sampling_LM/SANS-master-KMeans/data/fb15k-237/mapped/relations.dict', header=None, index=True, sep='\t')
+pd.DataFrame(all_entities).to_csv('./data/wn18/mapped/entities.dict', header=None, index=True, sep='\t')
+pd.DataFrame(all_relations).to_csv('./data/wn18/mapped/relations.dict', header=None, index=True, sep='\t')
