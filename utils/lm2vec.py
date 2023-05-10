@@ -10,8 +10,6 @@ from gensim.models import fasttext
 from os.path import join
 import pickle
 
-#LM to vec is used for generating language model vectors.
-# Originally developed by Md. Rashad Al Hasan Rony
 
 encoder = SentenceTransformer('distilbert-base-nli-mean-tokens')
 vec = fasttext.load_facebook_vectors("../data/wiki.simple.bin")
